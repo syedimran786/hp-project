@@ -1,0 +1,110 @@
+
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.todo {
+    background-color: rgba(7, 184, 200, 0.41);
+    width: 600px;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 20px 10px rgba(211, 211, 211, 0.189);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .inp {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+
+        input
+        {
+            width: 80%;
+            padding: 20px;
+            background-color: transparent;
+            border: none;
+            outline: none;
+            border-bottom: 1px solid white;
+            color: white;
+            font-size: 25px;
+            height: 100%;
+
+            &:focus,&::placeholder
+            {
+                color: white;
+                font-size: 25px;
+            }
+        }
+
+       
+
+        button
+        {
+            background-color: black;
+            padding: 20px 30px;
+            border-radius: 10px;
+            font-size: 20px;
+            font-weight: 400;
+            color: white;
+
+        }
+    }
+}
+
+ul
+{
+    width: 100%;
+    padding: 20px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    // justify-content: space-between;
+
+    .item
+    {
+        display: flex;
+        justify-content: space-between;
+        margin: 5px;
+
+        li
+        {
+            list-style: decimal;
+            font-size: 20px;
+            text-transform: capitalize;
+        }
+
+        button
+        {
+            background-color: red;
+            padding: 10px 30px;
+            border-radius: 10px;
+            font-size: 20px;
+            font-weight: 400;
+            color: white;
+
+        }
+    }
+}
+.show {
+    width: 400px;
+    padding: 10px;
+    font-size: 23px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0px auto;
+    border-radius: 10px;
+    text-transform: capitalize;
+}
+
+
+
+
+.hide {
+    display: none;
+}

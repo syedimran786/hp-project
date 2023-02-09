@@ -1,0 +1,33 @@
+.mobiles
+{
+    display: flex;
+    justify-content: space-around;
+   
+
+    .mobile
+    {
+    box-shadow: 3px 3px 20px 5px rgba(255, 255, 255, 0.313);
+    margin: 20px;
+    border-radius: 20px;
+    width: 400px;
+    padding: 2px;
+    height: 400px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+
+    img
+    {
+        width: 100%;
+        height: 50%;
+        border-radius: 20px;
+
+    }
+
+    .mobile-details
+    {
+        display: flex;
+        justify-content: space-between;
+    }
+    }
+}

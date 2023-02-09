@@ -1,0 +1,51 @@
+export let mobiles=
+[
+    {
+        mobileId:1,
+        mobileName:"Samsung",
+        ram:"4GB",
+        price:"$230",
+        dimage:"https://m.media-amazon.com/images/I/814ePfNubRL._AC_UY218_.jpg",
+        images:['https://m.media-amazon.com/images/I/814ePfNubRL._AC_UL320_.jpg',
+    'https://m.media-amazon.com/images/I/81OC0ojxH6L._AC_UL320_.jpg',
+    'https://m.media-amazon.com/images/I/71GFYocYzhL._AC_UL320_.jpg',
+,'https://m.media-amazon.com/images/I/61olN3oDvYL._AC_UL320_.jpg',
+'https://m.media-amazon.com/images/I/612Y5tw1x5L._AC_UL320_.jpg']
+    },
+    {
+        mobileId:2,
+        mobileName:"Iphone",
+        ram:"16GB",
+        price:"$420",
+        dimage:"https://m.media-amazon.com/images/I/71gm8v4uPBL._AC_UY218_.jpg",
+        images:['https://m.media-amazon.com/images/I/71GLMJ7TQiL._AC_UY218_.jpg',
+    'https://m.media-amazon.com/images/I/71gm8v4uPBL._AC_UY218_.jpg',
+    'https://m.media-amazon.com/images/I/71fVoqRC0wL._AC_UY218_.jpg',
+,'https://m.media-amazon.com/images/I/71ZOtNdaZCL._AC_UY218_.jpg',
+'https://m.media-amazon.com/images/I/71T5NVOgbpL._AC_UY218_.jpg']
+    },
+    {
+        mobileId:3,
+        mobileName:"Redmi",
+        ram:"6GB",
+        price:"$130",
+        dimage:"https://m.media-amazon.com/images/I/81BxHYjeA2L._AC_UL320_.jpg",
+        images:['https://m.media-amazon.com/images/I/81UT07JsBqL._AC_UY218_.jpg',
+    'https://m.media-amazon.com/images/I/810KHyQ4WcL._AC_UY218_.jpg',
+    'https://m.media-amazon.com/images/I/911TJ1CDbLL._AC_UY218_.jpg',
+,'https://m.media-amazon.com/images/I/61hxpOV817L._AC_UY218_.jpg',
+'https://m.media-amazon.com/images/I/71C4pfJ7ecL._AC_UY218_.jpg']
+    },
+    {
+        mobileId:4,
+        mobileName:"One Plus",
+        ram:"4GB",
+        price:"$530",
+        dimage:"https://m.media-amazon.com/images/I/71AvQd3VzqL._AC_UY218_.jpg",
+        images:['https://m.media-amazon.com/images/I/71AvQd3VzqL.jpg',
+    'https://m.media-amazon.com/images/I/71flXufDnbL.jpg',
+    'https://m.media-amazon.com/images/I/71V--WZVUIL._AC_UY218_.jpg',
+,'https://m.media-amazon.com/images/I/716uVx3Wr5L._AC_UY218_.jpg',
+'https://m.media-amazon.com/images/I/71BoiXkrEmL._AC_UY218_.jpg']
+    }
+]

@@ -1,0 +1,36 @@
+table,tr,td,th
+{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+thead
+{
+    background-color: lightgrey;
+}
+
+th,td
+{
+    padding: 20px;
+}
+
+table
+{
+    width: 600px;
+    margin: 50px;
+}
+
+tbody tr:nth-child(odd)
+{
+    background-color: lightpink;
+}
+
+tbody tr:nth-child(even)
+{
+    background-color: lightgreen;
+}
+
+tbody tr:hover
+{
+    background-color: lightskyblue;
+}
